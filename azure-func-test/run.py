@@ -15,8 +15,8 @@ class AzFuncHTTPReq:
             else:
                 print("{} = {}".format(var, os.environ[var]))
 
-        with open(binding_name, mode='r') as body:
-            self._body = body.read()
+        # with open(binding_name, mode='r') as body:
+        #     self._body = body.read()
 
     @property
     def headers(self):
