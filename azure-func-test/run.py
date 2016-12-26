@@ -15,7 +15,7 @@ class AzFuncHTTPReq:
             else:
                 print("{} = {}".format(var, os.environ[var]))
 
-        with open('binding_name', mode='r') as body:
+        with open(binding_name, mode='r') as body:
             self._body = body.read()
 
     @property
