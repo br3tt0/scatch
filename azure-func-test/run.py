@@ -1,4 +1,3 @@
-import os
 
-for var in os.environ:
-    print(var)
+
+print("-= this is a Function! =-")
