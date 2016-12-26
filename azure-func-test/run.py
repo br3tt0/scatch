@@ -35,9 +35,10 @@ class AzFuncHTTPReq:
         return self._body
 
 
-
-
 def main():
     request = AzFuncHTTPReq(binding_name='req')
     for header in request.headers:
         print('{} = {}'.format(header, request.headers[header]))
+
+if __name__ == "__main__":
+    main()
