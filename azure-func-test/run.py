@@ -1,4 +1,5 @@
 import os
 
 for var in os.environ:
-    print("{} = {}".format(var, os.environ[var]))
+    if var[:4] == 'REQ_':
+        print("{} = {}".format(var, os.environ[var]))
