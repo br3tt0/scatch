@@ -1,3 +1,4 @@
+import os
 
-
-print('This is a Function!')
+for var in os.environ:
+    print("{} = {}".format(var, os.environ[var]))
