@@ -1,3 +1,3 @@
 
 
-print("-= this is a Function! =-")
+print('This is a Function!')
