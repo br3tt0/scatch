@@ -5,7 +5,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "authLevel": "function",
-      "methods": [ "GET" ]
+      "methods": [ "GET", ]
     },
     {
       "name": "res",
